@@ -1,2 +1,0 @@
-# JardineriaVecinos
-TRABAJO CASO SEMESTRAL
