@@ -15,109 +15,147 @@
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
       crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <body>
-      <nav class="navbar navbar-expand-lg bg-warning ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="inicio.html">Jardineria Vecinal</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
-            navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="catalogo.html">Catalogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pedidos.html">Pedidos</a>
-              </li>
-            </ul>
-          </div>
-          <a href="menu_sesion.html">
-            <button type="button" class="btn btn-dark">Inicia Sesión</button>
-          </a>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-warning ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="inicio.html">Jardineria Vecinal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
+          navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalogo.html">Catalogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pedidos.html">Pedidos</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <div>
-        <h5>Herramientas de jardienria</h5><br>
-        <div class="container-fluid">
-          <div class=" row-cols-4">
-            <div class="col-md-4 mt-5 p-1">
-              <h3>Herranientas de jardin</h3>
-              <div class="row-cols-6">
-                <ul>
-                  <h4>Rastrillos</h4>
-                  <img src="imagenes/rastrillo.jpg" alt="rastrillo"
-                    width="300px"
-                    height="300px"><br>
-                  <p>Valor 3.500</p>
-                  <h4>Palas</h4>
-                  <img src="imagenes/pala.jpg" alt="pala" width="300px"
-                    height="300px"><br>
-                  <p>Valor 2.990</p>
-                  <h4>Guantes</h4>
-                  <img src="imagenes/guantes.jpg" alt="guantes" width="300px"
-                    height="300px"><br>
-                  <p>Valor 5.000</p>
-                </ul>
-              </div>
+        <a href="menu_sesion.html">
+          <button type="button" class="btn btn-dark">Inicia Sesión</button>
+        </a>
+      </div>
+    </nav>
+    <!--separacion para las cartas-->
+    <div class="container-flud">
+      <div class="row row-cols-3 row-cols-md-3 col-6 m-auto g-2">
+        <div class="col">
+          <div class="card">
+            <img src="imagenes/rastrillo.jpg" class="card-img-top"
+              alt="rastrillo">
+            <div class="card-body">
+              <h4 class="card-title">Rastrillos</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Donec bibendum, nisi a tempor lobortis,
+                augue justo eleifend arcu, a aliquam.</p>
+              <p class="card-text text-danger">Valor $3.500</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
-
-        <div class="container-fluid">
-          <div class=" row-cols-6">
-            <div class="col-lg mt-2 p-1">
-              <h3>Plantas</h3>
-              <div class="row-cols-4">
-                <div class="col-md-4 mt-6 p-1">
-                  <ul>
-                    <h4>Colores</h4>
-                    <img src="imagenes/flores.jpg" alt="flores de colores"
-                      width="300px"
-                      height="300px"><br>
-                    <p>Valor 2.500</p>
-                    <h4>Semillas</h4>
-                    <img src="imagenes/GIRASOL.jpg" alt="girasoles"
-                      width="300px"
-                      height="300px"><br>
-                    <p>Valor 2.500</p>
-                  </ul>
-                </div>
-              </div>
+        <div class="col">
+          <div class="card">
+            <img src="imagenes/pala.jpg" class="card-img-top" alt="pala">
+            <div class="card-body">
+              <h4 class="card-title">Palas</h4>
+              <p class="card-text">Nam rhoncus vitae sem lacinia pharetra.
+                Nulla libero lacus, tincidunt ac consectetur id,
+                sollicitudin in turpis. Maecenas vel tortor a ligula tincidunt
+                venenatis. Nunc auctor sem. Vivamus efficitur metus sit.
+              </p>
+              <p class="card-text text-danger">Valor $2.990</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
-        <div class="container-flud">
-          <div class=" row-cols-4">
-            <div class="col-2 mt-2 p-1">
-              <h3>Otros implementos</h3>
-            </div>
-          </div>
-          <div class="row-cols-6">
-            <div class="col-1 mt-2 p-2">
-              <ul>
-                <h4>Maceteros</h4>
-                <img src="imagenes/macetas.jpg" alt="macetas" width="300px"
-                  height="300px"><br>
-                <p>Valor 3.000</p>
-                <h4>Tierra de hojas</h4>
-                <img src="imagenes/tierra.jpg" alt="tierra" width="300px"
-                  height="300px"><br>
-                <p> valor 3.000</p>
-                <h4>Pesticidas</h4>
-                <img src="imagenes/inserticida.jpg" alt="Insecticida"
-                  idth="300px"
-                  height="300px"><br>
-                <p>Valor 5.000</p>
-              </ul>
+        <div class="col">
+          <div class="card">
+            <img src="imagenes/guantes.jpg" class="card-img-top"
+              alt="Guantes">
+            <div class="card-body">
+              <h4 class="card-title">Guantes</h4>
+              <p class="card-text">Nulla molestie, eros ac cursus congue, quam
+                orci molestie arcu,
+                nec molestie felis ex sit amet libero. Maecenas porttitor,
+                neque non ullamcorper hendrerit,
+                enim risus faucibus Cras vitae posuere risus. Curabitur ornare
+                diam enim.
+              </p>
+              <p class="card-text text-danger">Valor $5.000</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
-      </body>
-    </html>
+        <div class="col">
+          <div class="card">
+            <img src="imagenes/flores.jpg" class="card-img-top"
+              alt="Colortes">
+            <div class="card-body">
+              <h4 class="card-title">Flores por colores</h4>
+              <p class="card-text">Donec accumsan nec arcu non bibendum.
+                Mauris vulputate nunc urna,
+                non dignissim nisi finibus a. Vestibulum non dolor sit amet
+                dui fringilla elementum.
+                Suspendisse porta vulputate.</p>
+              <p class="card-text text-danger">Valores variados</p>
+              <a href="#" class="btn btn-primary">Ver opciones</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="imagenes/GIRASOL.jpg" class="card-img-top" alt="Semillas">
+            <div class="card-body">
+              <h4 class="card-title">Semillas</h4>
+              <p class="card-text">This is a longer card with supporting
+                text
+                below as a natural lead-in to additional content. This
+                content
+                is a little bit longer.</p>
+              <p class="card-text text-danger">Valores variados</p>
+              <a href="#" class="btn btn-primary">Ver opciones</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="imagenes/inserticida.jpg" class="card-img-top" alt="Insecticisa">
+            <div class="card-body">
+              <h4 class="card-title">Insecticida</h4>
+              <p class="card-text">This is a longer card with supporting
+                text
+                below as a natural lead-in to additional content. This
+                content
+                is a little bit longer.</p>
+              <p class="card-text text-danger">Valor </p>
+              <a href="#" class="btn btn-primary">Ver opciones</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a longer card with supporting
+                text
+                below as a natural lead-in to additional content. This
+                content
+                is a little bit longer.</p>
+              <p class="card-text text-danger">Valores variados</p>
+              <a href="#" class="btn btn-primary">Ver opciones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </body>
+</html>
